@@ -1,0 +1,13 @@
+body {
+    margin: 0 auto;
+    display: block;
+    width: 1639px;
+}
+
+#header {
+    overflow: hidden;
+}
+    #jumbotron {
+        position: absolute;
+        top: 0;
+    }
