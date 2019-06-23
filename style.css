@@ -46,9 +46,58 @@ body {
                 margin-top: 19px;
             }
 
-
-
     #jumbotron {
+        position: absolute;
+        top: 55px;
+        margin-left: 55px;
+        background-image: url('./images/jumbotron-bg.jpg');
+        width: 1530px;
+        padding-bottom: 165px;
+        padding-bottom: 165px;
+    }
+        #latest-news {
+            padding-top: 232px;
+            padding-left: 98px;
+            position: relative;
+            z-index: 10;
+            display: inline-block;
+        }
+
+            #latest-news>img {
+                margin-bottom: 28px;
+            } 
+
+        #jumbotron img {
+            display: block;
+        }
+
+        #slider {
+            float: right;
+            position: relative;
+            z-index: 10;
+            margin-top: 147px;
+            margin-right: 45px;
+        }
+
+            #dots {
+                float: left;
+                margin-right: 22px;
+                margin-top: 112px;
+            }
+                #dots img {
+                    margin-top: 7px;
+                }
+
+            #featured-article {
+                float: right;
+            }
+
+                #featured-article img {
+                    margin-top: 18px;
+                }
+
+
+    #jumbotron-bg {
         position: absolute;
         top: 0;
     }
