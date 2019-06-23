@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     display: block;
     width: 1639px;
+    background-color: #f9f9fb;
 }
 
 #header {
@@ -101,3 +102,154 @@ body {
         position: absolute;
         top: 0;
     }
+
+#newsletter {
+    background-image: url('images/\ newsletter-bg.png');
+    width: 1534px;
+    margin: 0 auto;
+    margin-top: 290px;
+    padding-bottom: 28px;
+}
+
+    #newsletter .container {
+        background-color: #f7f7f7;
+        width: 1470px;
+        margin: 0 auto;
+        padding-top: 21px;
+    }
+
+        #newsletter #signup {
+            font-size: 20px;
+            letter-spacing: 4px;
+            line-height: 28px;
+            color: #212121;
+            font-family: "Montserrat";
+            font-weight: 700;
+            display: inline-block;
+            width: 180px;
+            position: relative
+        }
+
+    #newsletter form {
+        display: inline-block;
+        float: right;
+    }
+
+        #newsletter input {
+            width: 450px;
+            padding: 16px 27px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(221, 221, 221, 0.15);
+            font-size: 13px;
+            letter-spacing: 2px;
+            line-height: 28px;
+            color: #262222;
+            font-family: "Hind";
+            font-weight: 300;
+            margin-right: 25px;
+            position: relative;
+        }
+
+        #newsletter input:last-of-type {
+            width: 282px;
+            background-color: #212121;
+            border: 1px solid rgba(221, 221, 221, 0.15);
+            font-size: 13px;
+            letter-spacing: 3px;
+            line-height: 24px;
+            color: #ffffff;
+            font-family: "Hind";
+            font-weight: 500;
+            margin-right: 0;
+        }
+
+    #newsletter #input-name {
+        padding-left: 51px;
+    }
+
+    #newsletter #input-email {
+        padding-left: 23px;
+    }
+
+.row {
+    margin-top: 51px;
+}
+    .container-left {
+        width: 1140px;
+        margin-left: 53px;
+    }
+
+        #post-category {
+            margin-top: 40px;
+            font-size: 16px;
+            /*letter-spacing: 2px;*/
+            line-height: 24px;
+            color: #999999;
+            font-family: "Hind";
+            font-weight: 400;
+            text-align: center;
+        }
+
+        #post-title {
+            text-transform: uppercase;
+            font-size: 28px;
+            letter-spacing: 2px;
+            line-height: 24px;
+            color: #212121;
+            font-family: "Montserrat";
+            font-weight: 700;
+            text-align: center;
+            margin-top: 20px
+        }
+
+        #metadata {
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 24px;
+        }
+
+            #metadata img:last-of-type {
+                margin-left: 12px;
+            }
+        
+        #content p, blockquote {
+            font-size: 15px;
+            letter-spacing: 1px;
+            line-height: 28px;
+            color: #464646;
+            font-family: "Hind";
+            font-weight: 300;
+            text-align: center;
+            width: 1023px;
+            margin: 23px auto;
+        }
+
+        blockquote {
+            max-width: 700px;
+            font-weight: bold;
+        }
+
+        #tags {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 16px;
+            /*letter-spacing: 2px;*/
+            line-height: 28px;
+            color: #999999;
+            font-family: "Hind";
+            font-weight: 400;
+            margin-top: 33px
+        }
+
+        #tags img {
+            margin-right: 10px;
+        }
+
+        #stats {
+            width: 1023px;
+            margin: 72px auto;
+        }
+            #stats div {   
+                display: inline-block;
+            }
