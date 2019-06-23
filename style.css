@@ -7,6 +7,47 @@ body {
 #header {
     overflow: hidden;
 }
+    #navbar {
+        padding-left: 52px;
+        padding-right: 52px;
+        background-image: url('./images/header-bg.jpg');
+        padding-bottom: 304px;
+    }   
+        .nav-divider {
+            float:left;
+            margin-right: 17px;
+        }
+        
+        #hamburger-menu {
+            margin-top: 19px;
+        }
+
+        #deco {
+            margin-left: 674px;
+            margin-right: 5px;
+        }
+
+        #social-media {
+            float: right;
+            display: inline;
+            position: relative;
+            z-index: 10;
+        }
+            #social-media img{
+                margin-right: 19px;
+                float: right;
+            }
+
+            #social-media img:first-of-type {
+                margin-right: 0;
+            }
+
+            #social-media .icons {
+                margin-top: 19px;
+            }
+
+
+
     #jumbotron {
         position: absolute;
         top: 0;
