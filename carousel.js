@@ -7,11 +7,11 @@ const carouselArray = [
     'images/carousel-04.png'
 ];
 
-const countDown = () => {
+const countDown = (t) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve();
-        }, 4000);
+        }, t);
     });
 };
 
@@ -21,11 +21,20 @@ async function asyncForEach(array, callback) {
     }
 }
 
+const transition = async(carousel) => {
+    for (let i = 1; i<=100; i++) {
+        await countDown(1);
+        carousel.style.opacity = String(i/100);
+    }
+}
+
 const start = async () => {
     while (true) {
         await asyncForEach(carouselArray, async (image) => {
-            await countDown();
+            await countDown(4000);
+            carousel.style.opacity = '0';
             carousel.setAttribute('src', image);
+            transition(carousel);
             if (image !== 'images/carousel-04.png') {
                 carousel.style.right = '257px';
             } else {
