@@ -1,3 +1,7 @@
+html {
+    zoom: 80%;
+}
+
 body {
     margin: 0 auto;
     display: block;
@@ -291,7 +295,7 @@ body {
 
     #previous-post, #next-post {
         display: inline-block;
-        background-color: #000;
+        background-color: #3a3c49;
         color: #fff;
         width: 48.5%;
         text-align: center;
@@ -309,10 +313,12 @@ body {
     }
     #next-post {
         margin-right: 2px;
-    }
-    #next-post {
-        background-color: #3a3c49;
         float: right;
+    }
+
+    #previous-post:hover,
+    #next-post:hover {
+        background-color: #000;
     }
 
     #michell {
